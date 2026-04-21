@@ -7,6 +7,7 @@ This project is a **binary image classification model** that detects whether a p
 
 ## 📂 Dataset Structure
 
+```
 dataset/
 │
 ├── train/
@@ -20,12 +21,12 @@ dataset/
 ├── test/
 │   ├── mask/
 │   └── no_mask/
-
+```
 
 - Train: ~5000 images per class  
 - Validation: ~400 images per class  
 - Test: ~500 images per class  
-
+_Note:_ Although i have reduced the dataset.
 ---
 
 ## ⚙️ Technologies Used
